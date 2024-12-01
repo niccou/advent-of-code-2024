@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Day01", "Day01", "{652C1C34-18F1-451B-BCE4-8C1DFF65E913}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Part1", "Part1", "{98F1AEF0-E7A2-493A-9C52-180D24C17C7C}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "AdventOfCode", "Day01\Part1\src\AdventOfCode.fsproj", "{6737D61F-A2B3-4508-B26E-235DA8A9DCC6}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "AdventOfCode.Tests", "Day01\Part1\test\AdventOfCode.Tests.fsproj", "{5B524BDB-6B22-4FE9-B41D-FD154043C568}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6737D61F-A2B3-4508-B26E-235DA8A9DCC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6737D61F-A2B3-4508-B26E-235DA8A9DCC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6737D61F-A2B3-4508-B26E-235DA8A9DCC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6737D61F-A2B3-4508-B26E-235DA8A9DCC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B524BDB-6B22-4FE9-B41D-FD154043C568}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B524BDB-6B22-4FE9-B41D-FD154043C568}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B524BDB-6B22-4FE9-B41D-FD154043C568}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B524BDB-6B22-4FE9-B41D-FD154043C568}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{98F1AEF0-E7A2-493A-9C52-180D24C17C7C} = {652C1C34-18F1-451B-BCE4-8C1DFF65E913}
+		{6737D61F-A2B3-4508-B26E-235DA8A9DCC6} = {98F1AEF0-E7A2-493A-9C52-180D24C17C7C}
+		{5B524BDB-6B22-4FE9-B41D-FD154043C568} = {98F1AEF0-E7A2-493A-9C52-180D24C17C7C}
+	EndGlobalSection
+EndGlobal
